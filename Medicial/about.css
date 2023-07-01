@@ -1,0 +1,218 @@
+html {
+    height: 100%;
+}
+
+body {
+
+    /* background-image:url("pharm1.png"); */
+    /* background-size:cover; */
+    /* overflow:hidden; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.header {
+    padding: 10px;
+    margin: -10px;
+    text-align: center;
+    background: #003366;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+
+}
+
+input[type=submit] {
+    background-color: #0077b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+/****************************************************/
+
+.login-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(7, 205, 240, 0.6);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+#rsubmit {
+    margin-left: 15px;
+}
+
+#psubmit {
+    margin: 0px;
+}
+
+.login-box form .block {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+
+.login-box .block:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+
+
+.login-box .block span {
+    position: absolute;
+    display: block;
+}
+
+/************************************************/
+
+.block {
+    margin: 30px;
+    background-color: #d5f1bb;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-box .block:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+/******************************************************/
+
+.topnav {
+    overflow: hidden;
+    background-color: #003366;
+    margin: 0px;
+    vertical-align: top;
+    width: 100%;
+    height: 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+.topnav a {
+    float: right;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: #bfbfbf;
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.topnav a:hover {
+    color: #f1f1f1
+}
+
+.topnav a.active {
+    background-color: #a4e6a6;
+    color: white;
+}
